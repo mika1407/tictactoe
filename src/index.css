@@ -48,4 +48,24 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+  font-size: 32px;
+}
+
+.Box {
+  margin: 5px;
+  padding-bottom: 5px;
+  border: 3px solid blue;
+  background-color: darkblue;
+  color: #fff;
+  height: 32px;
+  vertical-align: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.Box:hover {
+    background: black;
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition-duration: 0.1s;
 }
